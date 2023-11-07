@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Review App</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <button class="prev-btn">
+                    <i class="fa-solid fa-chevron-left fa-2xl"></i>
+                </button>
+
+                <img id="person-image" src="./person-1.jpeg" alt="person" />
+                <button class="next-btn">
+                    <i class="fa-solid fa-chevron-right fa-2xl"></i>
+                </button>
+            </header>
+            <main>
+                <p id="person-info">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eius quod, quisquam in quo nostrum nemo eveniet iste ipsa
+                    modi atque architecto similique facilis deleniti deserunt
+                    voluptatum, a reiciendis, impedit natus?
+                </p>
+                <h4 id="author">Susan</h4>
+                <p id="job">web desighner</p>
+                <button class="random-person">Surprize me</button>
+            </main>
+        </div>
+        <script src="./app.js"></script>
+    </body>
 </html>
